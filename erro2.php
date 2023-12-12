@@ -2,7 +2,8 @@ doctype html>
 <html>
 <head>
 <meta charset="utf-8">
-<title>BodyMindStore</title>
+<title>BMindStore || Error</title>
+<link rel="icon" type="image/png" href="img/bmind.png">
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 

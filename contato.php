@@ -4,9 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BodyMindStore || Categorias</title>
-    <link rel="icon" type="image/png" href="img/netflix.png">
-    <!-- CSS -->
+    <title>ByMindStore || Contato</title>
+    <link rel="icon" type="image/png" href="img/bmind.png">    <!-- CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
     <!-- jQuery livraria -->

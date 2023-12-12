@@ -3,7 +3,8 @@
 <html lang="pt-br">
 <head>
 <meta charset="utf-8">
-<title>BodyMindStore</title>
+<title>BMindStore</title>
+<link rel="icon" type="image/png" href="img/bmind.png">
 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 

@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BodyMindStore</title>
-    <link rel="icon" type="image/png" href="img/netflix.png">
+    <title>BMindStore</title>
+    <link rel="icon" type="image/png" href="img/bmind.png">
     <!-- CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
@@ -50,9 +50,11 @@
           <div class="text-center" style="margin-top:5px; margin-bottom:5px;">
             <?php
             if ($exibe['QtdEstoque'] > 0){ ?>
+            <a href="carrinho.php?cd=<?php echo $exibe['CodProduto']; ?>">
             <button class="btnbtn-lg btn-block btn-danger">
               <span class="glyphicon glyphicon-usd"> Comprar </span>
             </button>
+            </a>
             <?php } else{ ?>
               <button class="btnbtn-lg btn-block btn-danger" disabled>
               <span class="glyphicon glyphicon-remove"> Indisponivel </span>

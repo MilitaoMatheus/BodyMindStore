@@ -3,6 +3,7 @@
 <head>
 <meta charset="utf-8">
 <title>BMindStore || Alteração de produto</title>
+<link rel="icon" type="image/png" href="img/bmind.png">
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
