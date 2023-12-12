@@ -6,7 +6,7 @@ include 'resize-class.php'; // classe para redimensionar imagem
 $codProduto = $_GET['cd_altera'];  // variavel recebe o código do livro que acabamos de receber do formulário
 
 // abaixo criando a consulta pelo codigo do livro que recebemos acima
-$consulta = $cn->query("SELECT Imagem FROM tbProduto WHERE CodProduto='$cod_filme'"); 
+$consulta = $cn->query("SELECT Imagem FROM tbProduto WHERE CodProduto='$codProduto'"); 
 
 //criando uma array 
 $exibe = $consulta->fetch(PDO::FETCH_ASSOC);
@@ -65,7 +65,7 @@ try {
 	Imagem = '$img_nome1',
 	Lancamento = '$lanc'	
 	
-	WHERE CodProduto = '$cod_filme' 	
+	WHERE CodProduto = '$codProduto' 	
 	"); // as alterações serão feitas baseadas pelo codigo que recebemos
 
 
